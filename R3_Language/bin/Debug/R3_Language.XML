@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>R3_Language</name>
+    </assembly>
+    <members>
+        <member name="T:R3_Language.Expr">
+             <summary>
+             An R Expression
+             
+             EXPR -&gt; Value | Paren | BinOp | Parity | IfZeroExpr |    |    |     |
+             
+             
+             </summary>
+            </member>
+        <member name="M:R3_Language.LetExpr.Eval">
+             <summary>
+             
+             </summary>
+             <returns></returns>
+            </member>
+        <member name="T:R3_Language.Scanner">
+             <summary>
+             Scanner class for the R Language. 
+             
+             </summary>
+            </member>
+        <member name="F:R3_Language.Scanner.Tokens">
+             <summary>
+             Once Scanner is initialized this will be filled with strings that are processable
+             </summary>
+            </member>
+        <member name="P:R3_Language.Scanner.Head">
+             <summary>
+             Active index of Tokens String array
+             </summary>
+            </member>
+        <member name="M:R3_Language.Scanner.#ctor(System.String)">
+             <summary>
+             Constructor for Scanner
+             </summary>
+             <param name="s">string to scan</param>
+            </member>
+        <member name="M:R3_Language.Scanner.HasNext">
+             <summary>
+             Checks if there is more processable input. Ignores whitespace.
+             </summary>
+             <returns>bool for if there is processable char in scanner</returns>
+            </member>
+        <member name="M:R3_Language.Scanner.HasNext(System.String)">
+             <summary>
+             Checks to see if the next valid input matches the word 
+             If success, it is consumed and head is incremented.
+             </summary>
+             <param name="word"></param>
+             <returns></returns>
+            </member>
+        <member name="M:R3_Language.Scanner.Next``1">
+             <summary>
+             Returns the next string
+             </summary>
+             <returns>next string</returns>
+            </member>
+        <member name="M:R3_Language.Scanner.Explode(System.String,System.String)">
+             <summary>
+             Tokenize
+             </summary>
+             <param name="s">String to be tokenized</param>
+             <param name="by">Tokenize on this string</param>
+            </member>
+        <member name="M:R3_Language.Scanner.PrintAll">
+             <summary>
+             Prints all tokens of scanner to console
+             </summary>
+            </member>
+        <member name="M:R3_Language.Scanner.PrintRest">
+             <summary>
+             Prints rest of tokens of scanner to console
+             </summary>
+            </member>
+        <member name="M:R3_Language.Scanner.IsNumber">
+             <summary>
+             IsNumber function
+             </summary>
+             <returns>Number next</returns>
+            </member>
+        <member name="M:R3_Language.Scanner.IsParen">
+             <summary>
+             
+             </summary>
+             <returns></returns>
+            </member>
+        <member name="M:R3_Language.Scanner.IsBinOp">
+             <summary>
+             Ises the bin op.
+             </summary>
+             <returns><c>true</c>, if bin op was ised, <c>false</c> otherwise.</returns>
+            </member>
+        <member name="M:R3_Language.Scanner.IsParity">
+             <summary>
+             Ises the parity.
+             </summary>
+             <returns><c>true</c>, if parity was ised, <c>false</c> otherwise.</returns>
+            </member>
+        <member name="M:R3_Language.Scanner.IsIfZeroExpr">
+             <summary>
+             Ises if zero expr.
+             </summary>
+             <returns><c>true</c>, if if zero expr was ised, <c>false</c> otherwise.</returns>
+            </member>
+        <member name="F:R3_Language.MyScannerTests._hasTests">
+            
+            
+                     * MISSION : Ensure that the hasNext can consume char up to false; 
+                     * 
+                     * </member>
+        <member name="M:R3_Language.MyScannerTests.HasNext3">
+            
+            
+                     * Ultimate goal is for this to pass, meaning no consumption of chars unless success
+                     * </member>
+        <member name="T:R3_Language.ScanningUtilities">
+             <summary>
+             
+             </summary>
+            </member>
+    </members>
+</doc>

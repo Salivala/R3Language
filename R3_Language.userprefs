@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{85F4E5CE-29FD-4F50-8DAB-0F635EF3155A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="R3_Language/Expressions.cs">
+    <Files>
+      <File FileName="R3_Language/Expressions.cs" Line="183" Column="31" />
+      <File FileName="R3_Language/MyScanner.cs" Line="36" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.R3__Language PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

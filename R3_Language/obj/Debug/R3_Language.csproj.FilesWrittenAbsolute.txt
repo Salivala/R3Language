@@ -1,0 +1,9 @@
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/obj/Debug/R3_Language.exe
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/obj/Debug/R3_Language.pdb
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/bin/Debug/nunit.framework.dll
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/bin/Debug/R3_Language.exe.config
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/bin/Debug/R3_Language.exe.mdb
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/bin/Debug/R3_Language.pdb
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/bin/Debug/R3_Language.exe
+/Users/mbp/Desktop/git/hszymanski-portfolio/R_Language-C#/R3_Language/obj/Debug/R3_Language.exe.mdb
